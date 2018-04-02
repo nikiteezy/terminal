@@ -1,0 +1,14 @@
+c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\bin\Debug\terminalTest.exe.config
+c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\bin\Debug\terminalTest.exe
+c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\bin\Debug\terminalTest.pdb
+c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\obj\Debug\terminalTest.csprojResolveAssemblyReference.cache
+c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\obj\Debug\MainWindow.g.cs
+c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\obj\Debug\App.g.cs
+c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\obj\Debug\terminalTest_MarkupCompile.cache
+c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\obj\Debug\terminalTest_MarkupCompile.lref
+c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\obj\Debug\MainWindow.baml
+c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\obj\Debug\terminalTest.g.resources
+c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\obj\Debug\terminalTest.Properties.Resources.resources
+c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\obj\Debug\terminalTest.csproj.GenerateResource.Cache
+c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\obj\Debug\terminalTest.exe
+c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\obj\Debug\terminalTest.pdb
