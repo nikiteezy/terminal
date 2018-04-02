@@ -12,3 +12,17 @@ c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTe
 c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\obj\Debug\terminalTest.csproj.GenerateResource.Cache
 c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\obj\Debug\terminalTest.exe
 c:\users\nikiteezy\documents\visual studio 2015\Projects\terminalTest\terminalTest\obj\Debug\terminalTest.pdb
+C:\Users\Nikiteezy\Documents\Visual Studio 2017\Projects\ООП\4-6\terminal\terminalTest\terminalTest\bin\Debug\terminalTest.exe.config
+C:\Users\Nikiteezy\Documents\Visual Studio 2017\Projects\ООП\4-6\terminal\terminalTest\terminalTest\obj\Debug\terminalTest.exe
+C:\Users\Nikiteezy\Documents\Visual Studio 2017\Projects\ООП\4-6\terminal\terminalTest\terminalTest\obj\Debug\terminalTest.pdb
+C:\Users\Nikiteezy\Documents\Visual Studio 2017\Projects\ООП\4-6\terminal\terminalTest\terminalTest\bin\Debug\terminalTest.exe
+C:\Users\Nikiteezy\Documents\Visual Studio 2017\Projects\ООП\4-6\terminal\terminalTest\terminalTest\bin\Debug\terminalTest.pdb
+C:\Users\Nikiteezy\Documents\Visual Studio 2017\Projects\ООП\4-6\terminal\terminalTest\terminalTest\obj\Debug\terminalTest.csprojResolveAssemblyReference.cache
+C:\Users\Nikiteezy\Documents\Visual Studio 2017\Projects\ООП\4-6\terminal\terminalTest\terminalTest\obj\Debug\MainWindow.g.cs
+C:\Users\Nikiteezy\Documents\Visual Studio 2017\Projects\ООП\4-6\terminal\terminalTest\terminalTest\obj\Debug\App.g.cs
+C:\Users\Nikiteezy\Documents\Visual Studio 2017\Projects\ООП\4-6\terminal\terminalTest\terminalTest\obj\Debug\terminalTest_MarkupCompile.cache
+C:\Users\Nikiteezy\Documents\Visual Studio 2017\Projects\ООП\4-6\terminal\terminalTest\terminalTest\obj\Debug\terminalTest_MarkupCompile.lref
+C:\Users\Nikiteezy\Documents\Visual Studio 2017\Projects\ООП\4-6\terminal\terminalTest\terminalTest\obj\Debug\MainWindow.baml
+C:\Users\Nikiteezy\Documents\Visual Studio 2017\Projects\ООП\4-6\terminal\terminalTest\terminalTest\obj\Debug\terminalTest.g.resources
+C:\Users\Nikiteezy\Documents\Visual Studio 2017\Projects\ООП\4-6\terminal\terminalTest\terminalTest\obj\Debug\terminalTest.Properties.Resources.resources
+C:\Users\Nikiteezy\Documents\Visual Studio 2017\Projects\ООП\4-6\terminal\terminalTest\terminalTest\obj\Debug\terminalTest.csproj.GenerateResource.Cache

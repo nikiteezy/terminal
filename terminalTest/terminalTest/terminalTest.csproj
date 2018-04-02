@@ -62,12 +62,19 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Core\ICardInfo.cs" />
+    <Compile Include="Core\ITerminal.cs" />
+    <Compile Include="Core\Server.cs" />
+    <Compile Include="Core\Terminal_1.cs" />
+    <Compile Include="Core\ValidCrads.cs" />
+    <Compile Include="Core\ValidTerminals.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\MorrisCard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -95,8 +102,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Без имени-1.png" />
+    <Resource Include="Images\Без имени-1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\card.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

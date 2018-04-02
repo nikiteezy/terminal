@@ -24,5 +24,10 @@ namespace terminalTest
         {
             InitializeComponent();
         }
+
+        private void MainForm_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
