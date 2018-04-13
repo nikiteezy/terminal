@@ -8,7 +8,7 @@
         Title="MainWindow" Height="600" Width="1000" Loaded="MainForm_Loaded">
     <Window.Resources>
         <Style TargetType="Button" x:Key="terminalBtn">
-            
+
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="Height" Value="24"/>
             <Setter Property="Width" Value="52"/>
@@ -30,24 +30,37 @@
             </Style.Triggers>
 
         </Style>
-        
+
     </Window.Resources>
 
     <Grid>
-        <Image x:Name="Без_имени_1_png" Margin="10,10,0,13.159" Source="Без имени-1.png" Stretch="Fill" HorizontalAlignment="Left" Width="275"/>
-        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_1" HorizontalAlignment="Left" Margin="45.75,0,0,167.75" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height"/>
-        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_2" HorizontalAlignment="Left" Margin="116.625,0,0,163.75" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height"/>
-        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_3" HorizontalAlignment="Left" Margin="185.75,0,0,167.75" VerticalAlignment="Bottom" d:LayoutOverrides="Height"/>
-        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_4" HorizontalAlignment="Left" Margin="45.75,0,0,136.418" VerticalAlignment="Bottom" d:LayoutOverrides="Width"/>
-        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_5" HorizontalAlignment="Left" Margin="116.625,0,0,131.75" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height"/>
-        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_6" HorizontalAlignment="Left" Margin="185.75,0,0,134.75" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height"/>
-        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_7" HorizontalAlignment="Left" Margin="48.414,0,0,106.083" VerticalAlignment="Bottom"/>
-        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_8" HorizontalAlignment="Left" Margin="116.625,0,0,102.75" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height"/>
-        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_9" HorizontalAlignment="Left" Margin="185.75,0,0,105.75" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height"/>
-        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_0" HorizontalAlignment="Left" Margin="116.625,0,0,73.082" VerticalAlignment="Bottom" d:LayoutOverrides="Width"/>
-        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_Cancel" HorizontalAlignment="Left" Margin="51.078,0,0,45.166" VerticalAlignment="Bottom"/>
-        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_Del" HorizontalAlignment="Left" Margin="117.291,0,0,43.082" VerticalAlignment="Bottom"/>
-        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_OK" HorizontalAlignment="Left" Margin="184.08,0,0,44.749" VerticalAlignment="Bottom"/>
-        <Image x:Name="card_png" Margin="308,379,440.6,34.4" Source="card.png" Stretch="Fill"/>
+        <Image x:Name="Без_имени_1_png" Margin="10,10,0,13.159" Source="Images/Без имени-1.png" Stretch="Fill" HorizontalAlignment="Left" Width="275"/>
+        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_1" HorizontalAlignment="Left" Margin="45.75,0,0,167.75" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height" Click="TermBtn_1_Click"/>
+        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_2" HorizontalAlignment="Left" Margin="116.625,0,0,163.75" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height" Click="TermBtn_2_Click"/>
+        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_3" HorizontalAlignment="Left" Margin="185.75,0,0,167.75" VerticalAlignment="Bottom" d:LayoutOverrides="Height" Click="TermBtn_3_Click"/>
+        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_4" HorizontalAlignment="Left" Margin="45.75,0,0,136.418" VerticalAlignment="Bottom" d:LayoutOverrides="Width" Click="TermBtn_4_Click"/>
+        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_5" HorizontalAlignment="Left" Margin="116.625,0,0,131.75" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height" Click="TermBtn_5_Click"/>
+        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_6" HorizontalAlignment="Left" Margin="185.75,0,0,134.75" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height" Click="TermBtn_6_Click"/>
+        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_7" HorizontalAlignment="Left" Margin="48.414,0,0,106.083" VerticalAlignment="Bottom" Click="TermBtn_7_Click"/>
+        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_8" HorizontalAlignment="Left" Margin="116.625,0,0,102.75" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height" Click="TermBtn_8_Click"/>
+        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_9" HorizontalAlignment="Left" Margin="185.75,0,0,105.75" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height" Click="TermBtn_9_Click"/>
+        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_0" HorizontalAlignment="Left" Margin="116.625,0,0,73.082" VerticalAlignment="Bottom" d:LayoutOverrides="Width" Click="TermBtn_0_Click"/>
+        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_Cancel" HorizontalAlignment="Left" Margin="51.078,0,0,45.166" VerticalAlignment="Bottom" Click="TermBtn_Cancel_Click"/>
+        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_Del" HorizontalAlignment="Left" Margin="117.291,0,0,43.082" VerticalAlignment="Bottom" Click="TermBtn_Del_Click"/>
+        <Button Style="{StaticResource terminalBtn}" Name="TermBtn_OK" HorizontalAlignment="Left" Margin="184.08,0,0,44.749" VerticalAlignment="Bottom" Click="TermBtn_OK_Click"/>
+        <Image x:Name="card_png" Margin="308,379,440.6,34.4" Source="Images/card.png" Stretch="Fill"/>
+        <Label x:Name="lableMain" HorizontalAlignment="Left" Margin="41,169,0,0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Top" Height="122" Width="201"  FontSize="20" FontFamily="Bebas Neue Book">
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="" TextAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0,0" Height="124" Width="192"/>
+        </Label>
+        <Label x:Name="lableEnter" HorizontalAlignment="Left" Margin="41,258,0,0" VerticalAlignment="Top" Width="201" FontFamily="Bebas Neue Book" FontSize="14">
+            <TextBlock x:Name="textEnter" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Text="" FontSize="20"/>
+        </Label>
+        <Button Style="{StaticResource terminalBtn}" x:Name="TermBtn_Dot" HorizontalAlignment="Left" Margin="186,0,0,73" VerticalAlignment="Bottom" Click="TermBtn_Dot_Click"/>
+        <PasswordBox x:Name="passwordBox" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="46,258,0,0" VerticalAlignment="Top" Width="192" Height="27" FontFamily="Bebas Neue Book" FontSize="18"/>
+        <Label x:Name="lableCheck" HorizontalAlignment="Left" Margin="317,10,0,0" VerticalAlignment="Top" Height="364" Width="234" FontFamily="Bebas Neue Book" FontSize="22">
+            <Label x:Name="label">
+                <TextBlock x:Name="textBlockCheck" TextWrapping="Wrap"><Run Text=""/></TextBlock>
+            </Label>
+        </Label>
     </Grid>
 </Window>

@@ -1,0 +1,4 @@
+Терминал номер:1 PAN:5412751234123456 Cart Holder Name:S.Morris Exprity Date1209 Amount:500,0000000 Дата:13.04.2018 10:04:39
+Терминал номер:1 PAN:5412751234123456 Cart Holder Name:S.Morris Exprity Date1209 Amount:100 Дата:13.04.2018 11:01:33
+Терминал номер:1 PAN:5412751234123456 Cart Holder Name:S.Morris Exprity Date1209 Amount:11000 Дата:13.04.2018 11:01:57
+Терминал номер:1 PAN:5412751234123456 Cart Holder Name:S.Morris Exprity Date1209 Amount:1,96 Дата:13.04.2018 11:03:56

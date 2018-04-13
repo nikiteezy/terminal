@@ -2,6 +2,6 @@
 {
     internal class ValidTerminals
     {
-        private long TerminalsId { get; set; }
+        public long TerminalsId { get; set; }
     }
 }

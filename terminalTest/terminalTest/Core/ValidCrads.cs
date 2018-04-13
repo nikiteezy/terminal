@@ -12,18 +12,13 @@
 
         public int PIN { get; set; }
 
-        public void set()
+        public void set(long _PAN, string _CardholderName, int _PIN, int _ExprityDate, decimal _Amount)
         {
-            decimal _Amount;
-            string _CardholderName;
-            long _PAN;
-            int _PIN, _ExprityDate;
-
-            /*
-             * Считывание данных из файла
-             */
-
-           // Amount = _Amount;
+            Amount = _Amount;
+            CardholderName = _CardholderName;
+            PAN = _PAN;
+            PIN = _PIN;
+            ExpriryDate = _ExprityDate;
         }
     }
 }
